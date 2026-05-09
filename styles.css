@@ -486,6 +486,11 @@ h3 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.cake-gallery .work-item img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
 .work-item {
   margin: 0;
   background: #fff;
