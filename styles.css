@@ -511,8 +511,18 @@ h3 {
   object-fit: cover;
 }
 
-.work-item:not(.large) img {
+.work-item:not(.large):not(.wide):not(.tall) img {
   aspect-ratio: 1 / 1;
+  object-fit: contain;
+}
+
+.work-item.wide img {
+  aspect-ratio: 2 / 1;
+  object-fit: contain;
+}
+
+.work-item.tall img {
+  aspect-ratio: 4 / 5;
   object-fit: contain;
 }
 
