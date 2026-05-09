@@ -513,6 +513,7 @@ h3 {
 
 .work-item:not(.large) img {
   aspect-ratio: 1 / 1;
+  object-fit: contain;
 }
 
 .cake-gallery .work-item:not(.large) img {
